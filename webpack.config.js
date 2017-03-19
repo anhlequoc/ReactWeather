@@ -26,6 +26,8 @@ module.exports = {
 		//dua đường dẫn các module vào đây cho dễ quản lý
 		root: __dirname,
 		alias: {
+			Nav: 'app/components/Nav.jsx',
+			Main: 'app/components/Main.jsx',
 			applicationStyles: 'app/styles/app.scss'
 		},
 		extensions: ['', '.js', '.jsx']//return extension of file we want to execute
