@@ -29,9 +29,12 @@ module.exports = {
 			Main: 'app/components/Main.jsx',
 			Nav: 'app/components/Nav.jsx',
 			GetWeather: 'app/components/GetWeather.jsx',
+			WeatherForm: 'app/components/WeatherForm.jsx',
+			WeatherResult: 'app/components/WeatherResult.jsx',
 			About: 'app/components/About.jsx',
 			Example: 'app/components/Example.jsx',
-			applicationStyles: 'app/styles/app.scss'
+			applicationStyles: 'app/styles/app.scss',
+			apiWeather: 'app/api/apiWeather.jsx'
 		},
 		extensions: ['', '.js', '.jsx']//return extension of file we want to execute
 	},
