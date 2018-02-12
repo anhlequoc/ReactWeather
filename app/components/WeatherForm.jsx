@@ -3,8 +3,7 @@ const React = require('react');
 var WeatherForm = React.createClass({  
   onFormSubmit: function(e) {
     e.preventDefault();    
-    
-    //update state and get temp by using api call
+
     let location = this.refs.location.value;
     if (location.length > 0) {            
       this.refs.location.value = "";

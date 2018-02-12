@@ -31,10 +31,12 @@ var GetWeather = React.createClass({
       .catch(function(error) {
         that.setState({
           location: location,
-          weatherData: {test: "test"},
+          weatherData: undefined,
           isLoading: false
         });
       });
+    
+    console.log(this.state);
   },
   render: function() {
     return (
