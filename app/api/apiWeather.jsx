@@ -15,9 +15,10 @@ module.exports = {
                 return response.data.main;
             })
             .catch(function(error) {
-                console.log("error: " + error);
-                return error;
+                console.log("error in app: " + error);
+                return error.response.data;
             });
+
         return weatherData;
     }
 };

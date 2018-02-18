@@ -9,7 +9,7 @@ var WeatherForm = React.createClass({
       this.refs.location.value = "";
       this.props.handleSearch(location);
     } else {
-      console.log('please enter location');
+      alert('please enter location');
     }
   },  
   render: function() {
